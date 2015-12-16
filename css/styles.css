@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo|Quicksand|Pacifico);
+
+/*nav*/
+.navbar-default {
+    background-color: #000;
+    height: 72px;
+}
+
+nav.navbar.navbar-default {
+	position: absolute;
+	width: 100%;
+	border-color: transparent;
+	background: rgba(0, 0, 0, .6); 
+}
+
+.navbar-default a {
+	font-family: Quicksand;
+	font-size: 18px;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ED2024;
+    background-color: transparent;
+    min-height: 70px;
+}
+
+section a {
+	color: #A4CE39;
+}
+
+section a:hover {
+	color: #ED2024;
+}
+
+.navbar-default .navbar-nav>li>a {
+   	color: #A4CE39;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ED2024;
+    background-color: #A4CE39;
+    height: 70px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #A4CE39;
+	background-color: #000;
+}
+
+.logo {
+	width: 300px;
+	box-shadow: rgba(50, 50, 50, .5);
+	padding-left: 20px;
+
+}
+
+
+/*end of nav*/
+
+/*hero*/
+#hero {
+    height: 550px;
+    background-image: url(../img/aaronBG2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding-top: 150px;
+    border-bottom: 1.5px solid #ED2024;
+ }
+
+ #hero h1 {
+ 	font-family: Arvo;
+ 	font-style: italic;
+ 	text-shadow: 4px 4px 3px #000;
+ 	font-size: 70px;
+ 	font-weight: 700;
+ 	padding-left: 30px;
+ 	color: #A4CE39;
+ 	margin-top: 5px;
+    margin-bottom: 5px;
+ }
+/*end of hero*/
+
+/*tagline section*/
+.tagline {
+	font-family: Quicksand;
+	text-align: center;
+	color: #ED2024;
+	padding-bottom: 10px;
+}
+
+/*tagline section end*/
+
+/*work section*/
+#samples {
+	min-height: 450px;
+	background-image: url(../img/hixs.png);
+	background-repeat: repeat;
+    padding-bottom: 100px;
+    padding-top: 110px;
+    border-top: 1.5px solid #ED2024;
+}
+
+.work {
+	background-color: rgba(256, 256, 256, .2);
+	border: solid, #fff;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-family: Arvo;
+	color: #bfc0c1;
+	min-height: 395px;
+}
+
+.work h3 {
+	color: #A4CE39;
+}
+
+.nav-tabs.nav-justified>li>a {
+    border: 0px solid #000;
+    border-radius: 0px 0px 0 0;
+    font-family: Quicksand;
+	font-size: 20px;
+}
+
+.nav-tabs.nav-justified>li>a:hover {
+	background-color: #A4CE39;
+}
+
+.nav-tabs.nav-justified>.active>a, 
+.nav-tabs.nav-justified>.active>a:focus, 
+.nav-tabs.nav-justified>.active>a:hover {
+    color: #ED2024;
+    background-color: rgba(256, 256, 256, .2);
+    border: none;
+    border-radius: 8px 8px 0px 0px;
+}
+
+
+/* end work section*/
+
+/*button*/
+.btn-default {
+    color: #ED2024;
+    background-color: rgba(5, 5, 5, .8);
+    border-color: #ED2024; /*can use transparent to eliminate border*/
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding:5px 20px;
+    position: center;
+ }   
+
+ .btn-default:hover {
+ 	color: #ED2024;
+ 	border-color: #ED2024;
+ 	background-color: rgba(200, 200, 200, .8);
+}
+ 	/*end of button*/
+
+/*Footer*/
+footer {
+	background-color: #000;
+	padding-top: 20px;
+	border-top: 2px solid #A4CE39;
+}
+
+footer a {
+	color: #bfc0c1;
+	font-family: Quicksand;
+}
+
+footer a:hover {
+	color:#A4CE39;
+	text-decoration: none;
+}
+
+.contact-info {
+	padding-top: 15px;
+	padding-left: 40px;
+}
+
+.social {
+	padding: 15px;
+	text-align: right;
+}
+
+footer .fine-print {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #505050;
+}
+
+footer .fa {
+	color: #A4CE39;
+
+}
+
+footer span {
+	color:;
+	text-decoration: none;
+}
+
+/*End of Footer*/
+
+@media (max-width: 767px) {
+	.center {
+		float: none;
+		margin: 0 auto;
+	}
+	.bottom {
+		top: 0;
+	}
+	.social {
+		text-align: center;
+		font-size: 45px;
+	}
+	.social i {
+		margin: 20px 10px 0px;
+	}
+	.contact-info {
+		text-align: right;
+		padding-right: 30px;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border: none;
+	    background-color: rgba(0, 0, 0, .8);
+	    margin-top: 20px;
+	    text-align: center;
+	}
+}
+
