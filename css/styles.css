@@ -58,7 +58,6 @@ section a:hover {
 	padding-left: 20px;
 }
 
-
 /*end of nav*/
 
 /*hero*/
@@ -72,7 +71,7 @@ section a:hover {
     border-bottom: 1.5px solid #ED2024;
  }
 
- #hero h1 {
+ #hero h1, #hero2 h1, #hero3 h1 {
  	font-family: Arvo;
  	font-style: italic;
  	text-shadow: 4px 4px 3px #000;
@@ -100,7 +99,7 @@ section a:hover {
 	min-height: 450px;
 	background-image: url(../img/hixs.png);
 	background-repeat: repeat;
-    padding-bottom: 100px;
+    padding-bottom: 77px;
     padding-top: 110px;
     border-top: 1.5px solid #ED2024;
 }
@@ -115,7 +114,7 @@ section a:hover {
 	min-height: 395px;
 }
 
-.work h3 {
+.work h3, .experience h3 {
 	color: #A4CE39;
 }
 
@@ -139,10 +138,17 @@ section a:hover {
     border-radius: 8px 8px 0px 0px;
 }
 
-
 /* end work section*/
 
 /*button*/
+
+.lower-button {
+	background-image: url(../img/hixs.png);
+	background-repeat: repeat;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
 .btn-default {
     color: #ED2024;
     background-color: rgba(5, 5, 5, .8);
@@ -150,20 +156,20 @@ section a:hover {
     text-transform: uppercase;
     border-radius: 8px;
     padding:5px 20px;
-    position: center;
+    font-family: Quicksand;
  }   
 
  .btn-default:hover {
  	color: #ED2024;
  	border-color: #ED2024;
- 	background-color: rgba(200, 200, 200, .8);
+ 	background-color: rgba(256, 256, 256, .2);
 }
  	/*end of button*/
 
 /*Footer*/
 footer {
 	background-color: #000;
-	padding-top: 20px;
+	padding-top: 40px;
 	border-top: 2px solid #A4CE39;
 }
 
@@ -203,7 +209,68 @@ footer span {
 	text-decoration: none;
 }
 
+
+
 /*End of Footer*/
+
+/*ABOUT PAGE*/
+.tagline img {
+	width: 50px;
+	margin:5px;
+	padding-top: 5px;
+}
+
+.tagline .row {
+	padding-left-left: 10px;
+	padding-right: 10px;
+}
+
+#hero2 {
+    height: 444px;
+    background-image: url(../img/balance.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 150px;
+    border-bottom: 1.5px solid #ED2024;
+}
+
+.experience {
+	background-color: rgba(256, 256, 256, .2);
+	border: solid, #fff;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-family: Arvo;
+	color: #bfc0c1;
+	min-height: 220px;
+}
+
+/* CONTACT PAGE*/
+
+#wufoo-z1ngjr3k16zbhoh {
+    background-color: transparent;
+    border: none;
+    border-radius:0px;
+    margin:0px auto;
+    padding:40px;
+
+}
+
+.form {
+	margin-left: 80px;
+	margin-right: 80px;
+	background-color: rgba(256, 256, 256, .6);
+}
+
+#hero3 {
+    height: 444px;
+    background-image: url(../img/phones.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 150px;
+    border-bottom: 1.5px solid #ED2024;
+}    
 
 @media (max-width: 767px) {
 	.center {
@@ -231,8 +298,9 @@ footer span {
 	    margin-top: 20px;
 	    text-align: center;
 	}
+
 	
-	#hero {
+	#hero, #hero2, #hero3 {
 	    background-attachment: scroll;
 	}
 	
@@ -241,5 +309,19 @@ footer span {
 		padding-left: 0px;
 		padding-top: 15px;
 	}
+
+	.nav-tabs.nav-justified>.active>a, 
+	.nav-tabs.nav-justified>.active>a:focus, 
+	.nav-tabs.nav-justified>.active>a:hover {
+   		 border-radius: 0px 0px 0px 0px;
+	}
+
+	.form {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: rgba(256, 256, 256, .6);
+	}
+
+
 }
 
